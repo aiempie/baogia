@@ -93,6 +93,15 @@ export const passportServices = [
         isOptional: true,
         note: "",
       },
+      {
+        id: 5,
+        feature: "Quản lý khách hàng (Option)",
+        description: "Cần quản lý khách, sđt, nhận logo nào, đã nhận logo nào, đã đi xe nào...",
+        price: "500",
+        checked: false,
+        isOptional: true,
+        note: "",
+      },
     ],
   },
 ];
