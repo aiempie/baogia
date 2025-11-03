@@ -18,7 +18,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Navigate to="/1" replace />} />
+        <Route path="/" element={<Navigate to="/example" replace />} />
         <Route path=":id" element={<QuotePage />} />
         <Route
           path="*"
