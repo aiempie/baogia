@@ -1,6 +1,7 @@
 import { servicesExample } from "./example";
 import { passportServices } from "./passport";
 import { webHocTiengAnh } from "./webHocTiengAnh";
+import { webQuanLyBanHangKeToan } from "./webQuanLyBanHangKeToan";
 
 export const listBaoGia = [
   {
@@ -20,5 +21,11 @@ export const listBaoGia = [
     title: "Web Passport",
     defaultServices: passportServices,
     day: "NGÀY 04/11/2025",
+  },
+  {
+    id: "web-quan-ly-ton-kho-ban-hang-ke-toan",
+    title: "Web quản lý tồn kho - bán hàng - kế toán",
+    defaultServices: webQuanLyBanHangKeToan,
+    day: "NGÀY 19/11/2025",
   },
 ];
