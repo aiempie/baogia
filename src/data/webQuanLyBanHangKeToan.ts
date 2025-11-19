@@ -9,7 +9,7 @@ export const webQuanLyBanHangKeToan: GroupedServicesCategory[] = [
         feature: "Quản lý Danh mục (Sản phẩm & Nguyên liệu)",
         description:
           "CRUD sản phẩm, nguyên liệu, vật tư; hỗ trợ đa đơn vị (kg, hộp, gam, lít) và quy đổi định lượng.",
-        price: "10000000",
+        price: "1000",
         checked: false,
         isOptional: false,
         note: "1 màn hình danh sách/chi tiết",
@@ -19,7 +19,7 @@ export const webQuanLyBanHangKeToan: GroupedServicesCategory[] = [
         feature: "Quản lý Điểm bán & Kho hàng",
         description:
           "Tạo/Sửa điểm bán, kho tổng, tủ bánh; gán nhân sự theo ca và gợi ý sơ đồ lưu trữ.",
-        price: "9000000",
+        price: "500",
         checked: false,
         isOptional: false,
         note: "1 màn hình chung",
@@ -29,7 +29,7 @@ export const webQuanLyBanHangKeToan: GroupedServicesCategory[] = [
         feature: "Quản lý Nhà cung cấp & Khách hàng",
         description:
           "Quản lý hồ sơ nhà cung cấp, khách hàng; tagging nhóm và lịch sử giao dịch mua/bán.",
-        price: "7000000",
+        price: "500",
         checked: false,
         isOptional: true,
         note: "1 màn hình",
@@ -44,7 +44,7 @@ export const webQuanLyBanHangKeToan: GroupedServicesCategory[] = [
         feature: "Mua hàng & Nhập kho (PO/GRN)",
         description:
           "Luồng tạo PO, duyệt, nhận hàng GRN; tự động quy đổi định lượng theo đơn vị chuẩn.",
-        price: "18000000",
+        price: "2000",
         checked: false,
         isOptional: false,
         note: "2 màn hình (PO & GRN)",
@@ -52,9 +52,8 @@ export const webQuanLyBanHangKeToan: GroupedServicesCategory[] = [
       {
         id: 105,
         feature: "Quản lý Tồn kho & Định mức",
-        description:
-          "Báo cáo tồn kho theo kho/điểm bán, thiết lập min-max, biểu đồ realtime.",
-        price: "18000000",
+        description: "Báo cáo tồn kho theo kho/điểm bán, thiết lập min-max, biểu đồ realtime.",
+        price: "2000",
         checked: false,
         isOptional: false,
         note: "2 màn hình (Báo cáo + cấu hình)",
@@ -62,9 +61,8 @@ export const webQuanLyBanHangKeToan: GroupedServicesCategory[] = [
       {
         id: 106,
         feature: "Nhắc nhở Mua hàng (Cảnh báo)",
-        description:
-          "Danh sách cảnh báo nguyên liệu dưới định mức, auto gửi email/Telegram.",
-        price: "8000000",
+        description: "Danh sách cảnh báo nguyên liệu dưới định mức, auto gửi email/Telegram.",
+        price: "500",
         checked: false,
         isOptional: true,
         note: "1 màn hình danh sách",
@@ -74,7 +72,7 @@ export const webQuanLyBanHangKeToan: GroupedServicesCategory[] = [
         feature: "Điều chỉnh Tồn kho",
         description:
           "Ghi nhận hao hụt, hủy; lưu audit log, ảnh minh chứng; phản ánh tồn kho cuối ngày.",
-        price: "9000000",
+        price: "500",
         checked: false,
         isOptional: false,
         note: "1 phiếu điều chỉnh",
@@ -87,9 +85,8 @@ export const webQuanLyBanHangKeToan: GroupedServicesCategory[] = [
       {
         id: 108,
         feature: "Định mức Nguyên liệu (BOM)",
-        description:
-          "Thiết lập công thức bánh, quy đổi đơn vị, versioning BOM theo mùa.",
-        price: "10000000",
+        description: "Thiết lập công thức bánh, quy đổi đơn vị, versioning BOM theo mùa.",
+        price: "1000",
         checked: false,
         isOptional: false,
         note: "1 màn hình BOM",
@@ -99,7 +96,7 @@ export const webQuanLyBanHangKeToan: GroupedServicesCategory[] = [
         feature: "Lệnh Sản xuất (Work Order)",
         description:
           "Tạo/hoàn thành lệnh sản xuất, tự trừ kho nguyên liệu theo BOM và ghi nhận hao hụt.",
-        price: "12000000",
+        price: "2000",
         checked: false,
         isOptional: false,
         note: "1 màn hình WO",
@@ -109,7 +106,7 @@ export const webQuanLyBanHangKeToan: GroupedServicesCategory[] = [
         feature: "Chuyển kho Nội bộ",
         description:
           "Phiếu xuất chuyển bánh từ kho tổng tới từng điểm bán, ký số nội bộ, trạng thái giao nhận.",
-        price: "11000000",
+        price: "500",
         checked: false,
         isOptional: false,
         note: "1 màn hình",
@@ -124,19 +121,18 @@ export const webQuanLyBanHangKeToan: GroupedServicesCategory[] = [
         feature: "Bán hàng tại Điểm bán (POS)",
         description:
           "POS nhanh, offline-first, hỗ trợ 2 nhân viên/ca, phương thức thanh toán đa dạng.",
-        price: "14000000",
+        price: "5000",
         checked: false,
-        isOptional: false,
-        note: "1 giao diện POS",
+        isOptional: true,
+        note: "1 giao diện POS cho nhân viên sử dụng. Nếu không dùng POS thì không cần tính phí này.",
       },
       {
         id: 112,
         feature: "Tổng hợp Giao dịch",
-        description:
-          "Danh sách giao dịch, lọc theo ca/điểm bán, xuất Excel/PDF, đối chiếu tồn.",
-        price: "9000000",
+        description: "Danh sách giao dịch, lọc theo ca/điểm bán, xuất Excel/PDF, đối chiếu tồn.",
+        price: "1500",
         checked: false,
-        isOptional: false,
+        isOptional: true,
         note: "1 màn hình",
       },
       {
@@ -144,7 +140,7 @@ export const webQuanLyBanHangKeToan: GroupedServicesCategory[] = [
         feature: "Quản lý Chi phí Hoạt động",
         description:
           "Phiếu chi điện, internet, thuê mặt bằng; workflow phê duyệt 2 bước; đính kèm hóa đơn.",
-        price: "9000000",
+        price: "500",
         checked: false,
         isOptional: true,
         note: "1 phiếu chi",
@@ -154,9 +150,9 @@ export const webQuanLyBanHangKeToan: GroupedServicesCategory[] = [
         feature: "Báo cáo Tổng hợp",
         description:
           "Dashboard doanh thu, chi phí, lợi nhuận gộp theo thời gian/điểm bán; biểu đồ KPI.",
-        price: "13000000",
+        price: "2000",
         checked: false,
-        isOptional: false,
+        isOptional: true,
         note: "1 dashboard",
       },
     ],
@@ -167,31 +163,28 @@ export const webQuanLyBanHangKeToan: GroupedServicesCategory[] = [
       {
         id: 115,
         feature: "Quản lý Nhân viên & Ca làm",
-        description:
-          "CRUD nhân viên, phân ca 2 nhân sự/điểm, drag-drop lịch trực, hạn mức công.",
-        price: "10000000",
+        description: "CRUD nhân viên, phân ca 2 nhân sự/điểm, lịch trực, hạn mức công.",
+        price: "1000",
         checked: false,
-        isOptional: false,
+        isOptional: true,
         note: "1 màn hình",
       },
       {
         id: 116,
         feature: "Điểm danh & Ghi nhận Giờ làm",
-        description:
-          "Check-in/out theo điểm bán, QR + GPS, trạng thái ca, xử lý quên chấm công.",
-        price: "10000000",
+        description: "Check-in/out theo điểm bán, QR + GPS, trạng thái ca, xử lý quên chấm công.",
+        price: "1000",
         checked: false,
-        isOptional: false,
+        isOptional: true,
         note: "1 màn hình chấm công",
       },
       {
         id: 117,
         feature: "Tính lương & Hoa hồng",
-        description:
-          "Tổng hợp giờ làm, doanh số, tính lương cơ bản + hoa hồng; export bảng lương.",
-        price: "12000000",
+        description: "Tổng hợp giờ làm, doanh số, tính lương cơ bản + hoa hồng; export bảng lương.",
+        price: "2000",
         checked: false,
-        isOptional: false,
+        isOptional: true,
         note: "1 bảng lương",
       },
     ],
