@@ -176,7 +176,7 @@ export const marketplaceServices: GroupedServicesCategory[] = [
         feature: "Hệ thống Chat Realtime",
         description:
           "Người mua và người bán chat riêng tư. Hỗ trợ gửi tin nhắn văn bản để trả giá, hỏi tình trạng",
-        price: "500",
+        price: "800",
         checked: false,
         isOptional: true,
         note: "",
@@ -188,7 +188,7 @@ export const marketplaceServices: GroupedServicesCategory[] = [
           "Thông báo hệ thống: 'Nạp tiền thành công', 'Tin đăng đã được duyệt', 'Khuyến mãi mới'. Thông báo user: 'Có người bình luận vào tin của bạn'.",
         price: "300",
         checked: false,
-        isOptional: false,
+        isOptional: true,
         note: "",
       },
     ],
@@ -201,7 +201,7 @@ export const marketplaceServices: GroupedServicesCategory[] = [
         feature: "Dashboard Báo cáo",
         description:
           "Biểu đồ thống kê: Doanh thu nạp tiền hàng tháng, Số lượng user mới, Tổng số tin đăng trong ngày.",
-        price: "500",
+        price: "600",
         checked: false,
         isOptional: true,
         note: "",
@@ -211,7 +211,7 @@ export const marketplaceServices: GroupedServicesCategory[] = [
         feature: "Quản lý Duyệt tin & User",
         description:
           "Danh sách tin chờ duyệt (Duyệt/Từ chối kèm lý do). Quản lý người dùng (Khóa tài khoản vi phạm). Quản lý danh sách Cửa hàng.",
-        price: "800",
+        price: "1000",
         checked: false,
         isOptional: false,
         note: "Workflow với queue kiểm duyệt, ghi audit log.",
