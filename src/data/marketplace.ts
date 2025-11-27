@@ -18,7 +18,7 @@ export const marketplaceServices: GroupedServicesCategory[] = [
         feature: "Phân quyền người dùng (RBAC)",
         description:
           "Chia 3 role chính: User (người dùng thường), Shop (người dùng nâng cấp cửa hàng), Admin (quản trị viên)",
-        price: "100",
+        price: "200",
         checked: false,
         isOptional: false,
         note: "",
@@ -33,7 +33,7 @@ export const marketplaceServices: GroupedServicesCategory[] = [
         feature: "Trang chủ (Homepage)",
         description:
           "Hiển thị Grid danh mục chính, Slider Banner quảng cáo. Các Section: 'Sản phẩm dành cho bạn', 'Tin đăng mới nhất'. Tối ưu SEO (Server Side Rendering).",
-        price: "500",
+        price: "700",
         checked: false,
         isOptional: false,
         note: "SSR + edge caching, slider lazy load, đề xuất dựa trên lịch sử xem.",
@@ -43,7 +43,7 @@ export const marketplaceServices: GroupedServicesCategory[] = [
         feature: "Các trang thông tin tĩnh",
         description:
           "Bao gồm: Điều khoản sử dụng, Chính sách bảo mật, Quy định đăng tin, Giải quyết khiếu nại. Sử dụng Layout riêng đơn giản, nội dung tĩnh.",
-        price: "200",
+        price: "500",
         checked: false,
         isOptional: true,
         note: "",
@@ -83,7 +83,7 @@ export const marketplaceServices: GroupedServicesCategory[] = [
         feature: "Hiển thị thông tin chi tiết",
         description:
           "Slider ảnh/video sản phẩm. Thông tin kỹ thuật, giá bán, tình trạng. Nút Call-to-action: Gọi điện (hiện số), Chat ngay.",
-        price: "500",
+        price: "800",
         checked: false,
         isOptional: false,
         note: "",
@@ -94,6 +94,15 @@ export const marketplaceServices: GroupedServicesCategory[] = [
         description:
           "Khu vực bình luận (cho phép người dùng hỏi đáp công khai). Section 'Tin đăng tương tự' (cùng chuyên mục, cùng mức giá hoặc cùng khu vực).",
         price: "300",
+        checked: false,
+        isOptional: true,
+        note: "",
+      },
+      {
+        id: 9020,
+        feature: "Đánh giá sao",
+        description: "Đánh giá sao cho người dùng, cửa hàng đã tương tác",
+        price: "200",
         checked: false,
         isOptional: true,
         note: "",
