@@ -1,4 +1,5 @@
 import { servicesExample } from "./example";
+import { marketplaceServices } from "./marketplace";
 import { passportServices } from "./passport";
 import { webHocTiengAnh } from "./webHocTiengAnh";
 import { webQuanLyBanHangKeToan } from "./webQuanLyBanHangKeToan";
@@ -27,5 +28,11 @@ export const listBaoGia = [
     title: "Web quản lý tồn kho - bán hàng - kế toán",
     defaultServices: webQuanLyBanHangKeToan,
     day: "NGÀY 19/11/2025",
+  },
+  {
+    id: "bao-gia-san-rao-vat",
+    title: "Sàn rao vặt đa ngành",
+    defaultServices: marketplaceServices,
+    day: "NGÀY 27/11/2025",
   },
 ];
